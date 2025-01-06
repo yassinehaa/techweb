@@ -8,8 +8,6 @@
 .navbar{
     background: white;
     font-family: "Arial Black";
-    padding-right: 15px;
-    padding-left: 15px;
     display: flex;
     align-items: center;
 }
@@ -37,8 +35,6 @@ header{
     font-size: 1rem;
     color: rgb(0, 0, 0);
     margin-left: 2rem;
-    transition: 0.3s ease;
-    border-bottom: 3px solid transparent;
 }
 #register{
     background-color: black;
@@ -47,28 +43,23 @@ header{
     color: white;
 }
 .middle {
-    background-color: black;
     color: white;
     font-size: 7rem;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    margin-top: 10%;
 }
 .subtitle {
     color: gray;
     text-align: center;
     position: absolute;
     margin-left: 35%;
-    top: 60%;
+    top: 55%;
 }
 
 footer {
     background-color: rgb(72, 71, 71);
     color: antiquewhite;
     height: 100px;
-    margin-top: 50px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -76,9 +67,7 @@ footer {
 .info{
     width: 500px;
     margin-left: 10px;
-    white-space: nowrap;
     display: flex;
-    align-items: center;
     margin-top: 40px;
     justify-content: space-between;
 }
