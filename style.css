@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+.logo{
+    display: flex;
+}
 .navbar{
     background: white;
     font-family: "Arial Black";
@@ -9,31 +12,31 @@
     padding-left: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 body{
     background: black;
 }
-html{
-    font-size: 60%;
-    overflow-x: hidden;
-}
 header{
-    position: fixed;
-    top: 0;
-    left: 0;
+    font-family: "Arial Black";
+    height: 80px;
     width: 100%;
-    padding: 4rem 12% 4rem;
-    background: bisque;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 5;
 }
+.navbar {
+    font-family: "Arial Black";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
 .navbar a{
     font-size: 1rem;
-    color: rgb(0, 0, 0) ;
-    margin-left: 3rem;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
@@ -42,4 +45,40 @@ header{
     padding: 16px;
     border-radius: 8px;
     color: white;
+}
+.middle {
+    background-color: black;
+    color: white;
+    font-size: 7rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.subtitle {
+    color: gray;
+    text-align: center;
+    position: absolute;
+    margin-left: 35%;
+    top: 60%;
+}
+
+footer {
+    background-color: rgb(72, 71, 71);
+    color: antiquewhite;
+    height: 100px;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.info{
+    width: 500px;
+    margin-left: 10px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between;
 }
